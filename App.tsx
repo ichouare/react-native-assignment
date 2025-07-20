@@ -1,13 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import './global.css';
+
+import { SafeAreaView } from 'react-native';
+import BottomNavigation from './navigation/TabNavigation';
+
+
+
+
+
+
 
 
 export default function App() {
-  return (
-    <View className="flex-1 text-heading-one bg-blue-400 items-center justify-center" >
-      <Text className='text-heading-one text-primary'>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+ return( 
+ 
+//  <SafeAreaView className='flex-1'>
+ <NavigationContainer >
+    <BottomNavigation />
+  </NavigationContainer>
+  // </SafeAreaView>
+  )
 }
