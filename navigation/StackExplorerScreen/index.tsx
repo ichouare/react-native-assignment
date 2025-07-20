@@ -6,16 +6,17 @@ import ExplorerScreen from '../../screens/Explorer';
 import HomeScreen from '../../screens/Home';
 const StackNavigation = () => {
   return (
-   <Stack.Navigator screenOptions={
-    {
+    <Stack.Navigator screenOptions={
+      {
         headerStyle: {
-            backgroundColor: "#EFE8DF",
+          backgroundColor: "#EFE8DF",
         },
         headerTitleAlign: 'center',
         headerTintColor: "black",
-    }
-   }>
-      <Stack.Screen name="Explorer" component={ExplorerScreen} />
+      }
+    }>
+      <Stack.Screen name="ExplorerScreen" component={ExplorerScreen} />
+      <Stack.Screen name="HomeScreen" component={HomeScreen} />
     </Stack.Navigator>
   )
 }

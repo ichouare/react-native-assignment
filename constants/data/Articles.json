@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Contraception",
+    "image": "img1",
+    "details": {
+      "creator": "Dr. Amina El Fassi",
+      "time": "2025-07-18T10:30:00Z",
+      "description": "A brief guide to different methods of contraception. Learn how to choose the one that suits your lifestyle and health needs."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Menstrual Health",
+    "image": "img2",
+    "details": {
+      "creator": "Nadia Benali",
+      "time": "2025-07-15T08:15:00Z",
+      "description": "Understanding your cycle is key to your well-being. This article explains hormonal changes and how they affect your mood and body."
+    }
+  },
+  {
+    "id": 3,
+    "title": "Puberty Changes",
+    "image": "img1",
+    "details": {
+      "creator": "Youssef Amrani",
+      "time": "2025-07-12T14:45:00Z",
+      "description": "What happens during puberty? A simple explanation of physical and emotional changes to expect during adolescence."
+    }
+  },
+  {
+    "id": 4,
+    "title": "Consent",
+    "image": "img2",
+    "details": {
+      "creator": "Sanae El Haddad",
+      "time": "2025-07-10T09:00:00Z",
+      "description": "Learn what consent really means and why it’s important. Everyone has the right to set boundaries in relationships."
+    }
+  },
+  {
+    "id": 5,
+    "title": "Safe Relationships",
+    "image": "img2",
+    "details": {
+      "creator": "Karim Bekkali",
+      "time": "2025-07-08T11:20:00Z",
+      "description": "A healthy relationship is based on trust, respect, and communication. Find out the signs of safety and red flags to watch for."
+    }
+  }
+]

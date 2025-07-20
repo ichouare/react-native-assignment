@@ -5,16 +5,16 @@ const Stack = createNativeStackNavigator();
 import SettingScreen from '../../screens/setting';
 const SettingStack = () => {
   return (
-   <Stack.Navigator screenOptions={
-    {
+    <Stack.Navigator screenOptions={
+      {
         headerStyle: {
-            backgroundColor: "#EFE8DF"
+          backgroundColor: "#EFE8DF"
         },
         headerTitleAlign: 'center',
         headerTintColor: "black",
-    }
-   }>
-      <Stack.Screen name="Setting" component={SettingScreen} />
+      }
+    }>
+      <Stack.Screen name="SettingScreen" component={SettingScreen} />
     </Stack.Navigator>
   )
 }

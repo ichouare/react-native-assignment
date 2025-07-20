@@ -50,7 +50,7 @@ module.exports = {
         'badge-text': [
           '14px',
           {
-            lineHeight: "16",
+            lineHeight: "1.6",
             letterSpacing: "",
             fontWeight: "500"
           }

@@ -6,18 +6,20 @@ import HomeScreen from '../../screens/Home';
 import ExplorerScreen from '../../screens/Explorer';
 const HomeStack = () => {
   return (
-   <Stack.Navigator screenOptions={
-    {
+    <Stack.Navigator screenOptions={
+      {
         headerStyle: {
-            backgroundColor: "#EFE8DF"
+          backgroundColor: "#EFE8DF",
         },
         headerTitleAlign: 'center',
         headerTintColor: "black",
-    }
-   }>
-      <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="Explorer" component={ExplorerScreen} />
-    </Stack.Navigator>
+        headerLargeTitleShadowVisible: false,
+
+      }
+    } >
+      <Stack.Screen name="HomeScreen" component={HomeScreen} />
+      <Stack.Screen name="ExplorerScreen" component={ExplorerScreen} />
+    </Stack.Navigator >
   )
 }
 

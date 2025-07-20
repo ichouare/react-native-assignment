@@ -6,16 +6,16 @@ import SettingScreen from '../../screens/setting';
 import ProfileScreen from '../../screens/User';
 const UserStack = () => {
   return (
-   <Stack.Navigator screenOptions={
-    {
+    <Stack.Navigator screenOptions={
+      {
         headerStyle: {
-            backgroundColor: "#EFE8DF"
+          backgroundColor: "#EFE8DF"
         },
         headerTitleAlign: 'center',
         headerTintColor: "black",
-    }
-   }>
-      <Stack.Screen name="Profile" component={ProfileScreen} />
+      }
+    }>
+      <Stack.Screen name="ProfileScreen" component={ProfileScreen} />
     </Stack.Navigator>
   )
 }
